@@ -1,2 +1,7 @@
 @import 'tailwindcss';
-@plugin '@tailwindcss/forms';
+/*@plugin '@tailwindcss/forms'; */
+
+/* Remove arrows/spinners from number input type */
+input[type=number] {
+    appearance: textfield;
+}
