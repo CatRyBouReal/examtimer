@@ -49,8 +49,8 @@
             {/if}
         </button>
     </div>
-    <div class="flex flex-1 flex-row-reverse">
+    <div class="flex flex-1 flex-row-reverse min-h-0">
         <Clock class="pl-2 border-l" />
-        <ExamList class="flex-1 pr-2" />
+        <ExamList class="flex-1 pr-2 h-full overflow-auto" />
     </div>
 </div>
